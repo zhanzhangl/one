@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>One App</title>
-</head>
-<body>
-  <h1>主页视图</h1>
-</body>
-</html>
+@extends('layouts.default')
+
+@section('title', '主页')
+
+@section('content')
+这里是首页
+@endsection

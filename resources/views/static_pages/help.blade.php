@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>One App</title>
-</head>
-<body>
-  <h1>帮助视图</h1>
-</body>
-</html>
+@extends('layouts.default')
+
+@section('title', '帮助')
+
+@section('content')
+这里是帮助页面
+@endsection
